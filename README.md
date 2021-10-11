@@ -51,7 +51,10 @@ Fist of all. you need to download the package from github.com. Therefore just ex
 ### **Download the Splunk Universal Forwarder**
 Download the Splunk-UF version 8.2.1 and the MD5 checksum file from https://www.splunk.com/en_us/download/universal-forwarder.html.
 You can download your preferred version instead. Just adapt then the parameters (eg. _PkgSplunkVersion64_) on the scripts explained few steps below.
-- **Copy booth files** to the previous downloaded **folder from Github**.
+
+**Copy booth files** to the previous downloaded **folder from Github**.
+- `splunkforwarder-8.2.1-ddff1c41e5cf-x64-release.msi`
+- `splunkforwarder-8.2.1-ddff1c41e5cf-x64-release.msi.md5`
 
 ## **Execute automated scripts in SCCM**
 You need to understand how the SCCM process is working before you add this to a deployment job.
