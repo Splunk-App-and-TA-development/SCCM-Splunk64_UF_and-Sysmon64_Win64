@@ -42,9 +42,16 @@ The steps shown below explains the Upgrade procedure in detail.
 			WindowsXP ist not more compatible!
 
 
-## **Download the Package from Github**
+## **Download the Packages**
+
+### **Download the Package from Github**
 Fist of all. you need to download the package from github.com. Therefore just execute the following command:
 `git clone https://github.com/Splunk-App-and-TA-development/SCCM-Splunk64_UF_and-Sysmon64_Win64.git`
+
+### **Download the Splunk Universal Forwarder**
+Download the Splunk-UF version 8.2.1 and the MD5 checksum file from https://www.splunk.com/en_us/download/universal-forwarder.html.
+You can download your preferred version instead. Just adapt then the parameters (eg. _PkgSplunkVersion64_) on the scripts explained few steps below.
+- **Copy booth files** to the previous downloaded **folder from Github**.
 
 ## **Execute automated scripts in SCCM**
 You need to understand how the SCCM process is working before you add this to a deployment job.
